@@ -1,0 +1,106 @@
+export const menu = [
+    {
+      id: 1,
+      title: "Simit Rüyası",
+      category: "breakfast",
+      price: 15.99,
+      img: "./images/simit.jpg",
+      desc: "Sütün lezzeti buttermilk pankeklerde! Yumuşacık bir dokuya sahip süzme pankeklerimizle gününüze tat katın.",
+    },
+    {
+      id: 2,
+      title: "Kebap Dünyası",
+      category: "lunch",
+      price: 13.99,
+      img: "./images/kebab.jpg",
+      desc: "Diner usulü hazırlanan ikili hamburgerimiz, enfes lezzeti ve doyurucu yapısıyla lunchniz için mükemmel bir tercih!",
+    },
+    {
+      id: 3,
+      title: "Doğal Meyve Suyu",
+      category: "shakes",
+      price: 12.99,
+      img: "./images/içecek1.jpg",
+      desc: "Efsanevi bir lezzet sizi bekliyor! Godzilla Milkshake imizle kendinizi şımartın ve tatlı bir mola verin.",
+    },
+    {
+      id: 4,
+      title: "Köy Kahvaltısı",
+      category: "breakfast",
+      price: 20.99,
+      img: "./images/kahvaltı.avif",
+      desc: "Köy breakfastlarının vazgeçilmez lezzeti artık burada! Tamamen doğal malzemelerle hazırlanan Köy Lezzeti breakfastsı, sizleri enfes bir lezzet şölenine davet ediyor.",
+    },
+    {
+      id: 5,
+      title: "Köfte Şöleni",
+      category: "lunch",
+      price: 22.99,
+      img: "./images/kofte.jpg",
+      desc: "Köy breakfastlarının vazgeçilmez lezzeti artık burada! Tamamen doğal malzemelerle hazırlanan Köy Lezzeti breakfastsı, sizleri enfes bir lezzet şölenine davet ediyor.",
+    },
+  
+    {
+      id: 6,
+      title: "Köpüklü Yayık Ayran",
+      category: "shakes",
+      price: 18.99,
+      img: "./images/içecek2.jpg",
+      desc: "Oreo sevenler için muhteşem bir lezzet! Oreo Hayali sizi tatlı bir dünyaya götürüyor. Lezzetine doyum olmaz!",
+    },
+    {
+      id: 7,
+      title: "Soğanlı/Soğansız Menemen",
+      category: "breakfast",
+      price: 14.99,
+      img: "./images/menemen.jpg",
+      desc: "breakfastnın olmazsa olmazı bacon sevenleri için! Bol bol taze kızarmış bacon ve diğer lezzetlerle hazırlanan Bacon Seli, güne harika bir başlangıç yapmanızı sağlayacak.",
+    },
+    {
+      id: 8,
+      title: "Zeytinyağlı Sarma",
+      category: "lunch",
+      price: 12.99,
+      img: "./images/sarma.jpg",
+      desc: "Amerikan mutfağının klasik lezzetleriyle hazırlanan bu lunch, tadına doyum olmayan bir deneyim sunuyor. Üstelik uygun fiyatıyla da tercih sebebi!",
+    },
+    {
+      id: 9,
+      title: "Enfes Türk Kahvesi",
+      category: "shakes",
+      price: 16.99,
+      img: "./images/içecek3.jpg",
+      desc: "Karantina günlerinde canınızın sıkıldığı anlarda sizi yalnız bırakmayacak lezzetli bir milkshake! Karantina Arkadaşı ile tatlı bir kaçamak yapın.",
+    },
+    {
+      id: 10,
+      title: "Lahmacun",
+      category: "lunch",
+      price: 19.99,
+      img: "./images/lahmacun.jpg",
+      desc: "Bizon etinin eşsiz lezzeti, özel baharatlar ve soslarla birleşiyor. Bizon Bifteği, akşam yemeğiniz için mükemmel bir seçim!",
+    },
+  ];
+  
+  export const buttonsData = [
+    {
+      id: 1,
+      text: "Hepsi",
+      value: "all",
+    },
+    {
+      id: 2,
+      text: "Kahvaltı",
+      value: "breakfast",
+    },
+    {
+      id: 3,
+      text: "Öğle Yemeği",
+      value: "lunch",
+    },
+    {
+      id: 4,
+      text: "İçecekler",
+      value: "shakes",
+    },
+  ];
